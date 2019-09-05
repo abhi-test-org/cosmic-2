@@ -14,9 +14,9 @@ module.exports = {
       options: {
         bucketSlug: process.env.COSMIC_BUCKET,
         objectTypes: ['posts','settings'],
-        apiAccess: {
-          read_key: process.env.COSMIC_READ_KEY
-        }
+        // apiAccess: {
+        //   read_key: process.env.COSMIC_READ_KEY
+        // }
       }
     },
     {
