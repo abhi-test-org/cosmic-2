@@ -18,6 +18,7 @@ export default ({ settings }) => (
         height: rhythm(2),
       }}
     />
+    SUH
     <div dangerouslySetInnerHTML={{ __html: settings.author_bio }} />
   </div>
 )
